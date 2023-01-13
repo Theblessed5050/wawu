@@ -49,7 +49,24 @@
       border-radius: 10px;
       background-color: whitesmoke;
     }
-
+    .seep:hover {
+      display: block;
+      border-left: 3px solid blue;
+      border-radius: 10px;
+      background-color: whitesmoke;
+    }
+    @media screen and (max-width:576px){
+      .weep{
+        width: 49%;
+      margin: 1px;
+      }
+    }
+    @media screen and (max-width:576px){
+      .weep{
+        width: 50%;
+      margin: 1px;
+      }
+    }
     .you:hover {
       display: block;
       border-radius: 10px;
@@ -396,15 +413,6 @@
       <div class="col-lg-6">
   
         <h5>Additional Resources</h5>
-      </div>
-      <div class="col-lg-6">
-        <h5>Security and Privacy</h5>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
         <div class="container weep">
           <h3>Education blog particles <iconify-icon icon="material-symbols:arrow-forward-ios-rounded"
               style="color: blue;  margin-left: 26%;"></iconify-icon></h3>
@@ -424,6 +432,7 @@
         </div>
       </div>
       <div class="col-lg-6">
+        <h5>Security and Privacy</h5>
         <div class="container weep">
           <h3>FERPA <iconify-icon icon="material-symbols:arrow-forward-ios-rounded"
               style="color: blue; margin-left: 77%;"></iconify-icon></h3>
@@ -436,13 +445,13 @@
           <h3>GDPR <iconify-icon icon="material-symbols:arrow-forward-ios-rounded"
               style="color: blue;  margin-left: 77%;"></iconify-icon></h3>
         </div>
-        <div class="container weep">
+        <div class="container seep">
           <h3>Zoom Trust Center <iconify-icon icon="material-symbols:arrow-forward-ios-rounded"
               style="color: blue;  margin-left: 46%;"></iconify-icon></h3>
         </div>
       </div>
+      </div>
     </div>
-  </div>
   </div>
   <div class="container-fluid"
     style="background-color: aliceblue;text-align: center; padding-bottom: 10%; padding-top: 5%;">
