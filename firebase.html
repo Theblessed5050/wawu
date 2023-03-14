@@ -16,26 +16,99 @@
     .really {
         width: 20%;
         background-color: white;
+        border-color: white;
+        height: 60px;
+        border-radius: 10px;
         color: blue;
+    }
+    .were{
+        margin-right: 7%;
+    }
+    @media screen and (max-width:576px){
+        body{
+            overflow-x: hidden;
+        }
+    }
+    body {
+        background-color: white;
+    }
+
+
+    @media screen and (max-width:570px){
+        .mmm{
+    text-align: center;
+        }
+      .but{
+        margin-top: 5%;
+        margin-bottom: 6%;
+      }
+      .imgg{
+        margin-top: 5%;
+        margin-bottom: 6%;
+        width: 50%;
+      }
+      .coin{
+    justify-items: center;
+      }
+      #bu{
+        width: 10%;
+      }
+      .really{
+        width: 100%;
+      }
     }
 </style>
 
-<body>
-    <div class="container-fluid" style="background-color: rgb(220, 20, 60);  color: white;padding-bottom: 50%;">
-        <div class="contaniner">
+<body style="overflow-x: hidden;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="IMAGES/Screenshot 2023-03-14 113820.png" width="20"/>Firebase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item ms-3">
+                    <a class="nav-link " aria-current="page" href="dropbox hellosign.html">DROPBOX</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link" href="index.html">SWIFT</a>
+                  </li>
+        
+                  <li class="nav-item ms-3">
+                    <a class="nav-link " href="valuemax.html">VALUEMAX</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link  tool" href="metaopensource.html">META</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-outline-primary me-2" type="submit">Contact sales</button>
+                  <button class="btn btn-outline-success bg-primary" type="submit">Sign Up Free </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+    <div class="container-fluid  mmm" style="background-color: rgba(220, 50, 20, 0.959);  color: white;padding-bottom: 50%;">
+
+        <div class="container">
+            <br><br><br><br><br><br><br>
             <div style="margin-left: 10%; ;">
                 <h2>Solutions</h2>
                 <h1
                     style=" word-spacing: 10px; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
                     Mix and
-                    match Firebase products <br>
-                    to solve common app development <br>
+                    match Firebase products 
+                    to solve common app development 
                     challenges.</h1>
                 <br>
-                <button class="really">Explore all Solutions</button>
+                <button class=" h5  really">Explore all Solutions</button>
             </div>
             <div class="container">
-                <div class="row">
+                <div class="row  row-cols-2">
                     <div class="col-lg-3">
                         <img src="IMAGES/nyt-usecase_1x.png">
                     </div>
@@ -53,22 +126,27 @@
 
         </div>
     </div>
-    <div class="container"
-        style="border: 10% solid white;border-radius: 5%; margin-top: -40%; background-color: white;">
+    <div class="container shadow rounded-3   coin"
+        style="border: 40% solid white;border-radius: 0.5%; margin-top: -40%;padding: 2%; background-color: white;">
         <br>
+
+
+
+
+
         <div class="row" style="margin-left:3% ;">
             <div class="col-lg-6">
                 <p style="font-weight: 500;">Create a great <br>
                     onboarding flow</p>
                 <p style="font-weight: 500;">Give users a quick, intuitive sign-in process with
                     Firebase Authentication.</p>
-                Allow users to sign in to your app with their Facebook, Twitter, Google,
-                or GitHub account with less than 5 minutes of work.
+                <p style="color: grey;">Allow users to sign in to your app with their Facebook, Twitter, Google,
+                    or GitHub account with less than 5 minutes of work.</p>
                 <br><br>
                 <p style="font-weight: 500;">Track each step of your onboarding flow to improve the experience.</p>
-                Use Google Analytics for Firebase to log events at every step of your onboarding
-                flow, create funnels to see where users are dropping off, and use Remote Config
-                to make changes to your app to see how it affects conversions.
+                <p style="color: grey;">Use Google Analytics for Firebase to log events at every step of your onboarding
+                    flow, create funnels to see where users are dropping off, and use Remote Config
+                    to make changes to your app to see how it affects conversions.</p>
                 <br>
                 <div class="row">
                     <div class="col-lg-4">
@@ -91,69 +169,59 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="IMAGES/onboarding_1x.png" style="width: 70%;">
+                <img src="IMAGES/onboarding_1x.png" style="width: 70%;" class="imgg">
             </div>
         </div>
         <br>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
-                        style="background-color: rgb(248, 240, 231);">
-                       
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body" >
-                        <div style="margin-left: 5%;">
-                            <img src="IMAGES/fabulous.png">
-                            <br><br>
-                            <div class="d-flex" style="height: 90px;">
-                                <div class="vr"></div>
-                                <p>"We saw twice the retention rate among users with customized onboarding flow <br>
-                                    than among regular users. And it took us just one day to implement the <br>
-                                    customized onboarding screens." <br>
-                                    Sami Ben Hassine, cofounder and CEO, The Fabulous
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-left: 3%;">
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <button
-                                        style="width: 70%; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
-                                        <h5>View tutorial</h5>
+        <div style="margin-left: 5%;">
+            <img src="IMAGES/fabulous.png">
+            <br><br>
+            <div class="d-flex" style="height: 90px;color: grey;">
+                <div class="vr"></div>
+                <p>"We saw twice the retention rate among users with customized onboarding flow <br>
+                    than among regular users. And it took us just one day to implement the <br>
+                    customized onboarding screens." <br>
+                    Sami Ben Hassine, cofounder and CEO, The Fabulous
+                </p>
+            </div>
+        </div>
 
-                                    </button>
-                                </div>
-                                <div class="col-lg-6">
-                                    <h4 style="color: rgb(86, 119, 225);">Fabulous case study</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6"></div>
+        <br><br>
+        <div class="row" style="margin-left: 3%;">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button class="but"
+                            style="width: 70%; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;border-color:blue;color: white">
+                            <h5>View tutorial</h5>
+
+                        </button>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 style="color: rgb(86, 119, 225);">Fabulous case study</h4>
                     </div>
                 </div>
             </div>
-           </div> 
-        
-    
+            <div class="col-lg-6"></div>
+        </div>
 
-    <br><br>
-    <div class="container">
-        <hr style="text-align:center;">
+
+
+
+
+
         <br><br>
-        <p>Customize a "welcome back" screen</p>
-        <br>
-        <div class="row">
-            <div class="col-lg-6">
-                <p>Use personalization to give each user the best experience.</p>
-                <p>When an individual opens your app, delight them by customizing the initial screen based on their
-                    preferences, usage history, location, or language.</p>
+        <div class="container">
+            <hr style="text-align:center;">
+            <br><br>
+            <p class="h6">Customize a "welcome back" screen</p>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="h6">Use personalization to give each user the best experience.</p>
+                    <p style="color: grey;">When an individual opens your app, delight them by customizing the initial
+                        screen based on their
+                        preferences, usage history, location, or language.</p>
                     <br><br>
                     <div class="row">
                         <div class="col-lg-4">
@@ -168,17 +236,480 @@
                                     style="color: rgb(234, 66, 15);"></iconify-icon> Remote Config
                             </p>
                         </div>
-                        </div>
+
+                    </div>
+                    <br><br>
+                    <button class="but"
+                        style="width: 50%; border-color: blue; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
+                        <h5>View tutorial</h5>
+                    </button>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="h6">Define audiences based on user behavior and other Analytics variables. </p>
+                    <p style="color: grey;">Then use Firebase Remote Config to show specific content to each defined
+                        <br>
+                        audience. There's no need to submit a new app update—you can control <br>
+                        content and custom audiences directly from your Firebase console.
+                    </p>
+                </div>
             </div>
-            <div class="col-lg-6">
-                <p>Define audiences based on user behavior and other Analytics variables. </p>
-                <p>Then use Firebase Remote Config to show specific content to each defined <br>
-                     audience. There's no need to submit a new app update—you can control <br>
-                    content and custom audiences directly from your Firebase console. </p>
+            <br><br>
+            <hr style="text-align: center;">
+        </div>
+        <br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Progressively roll out <br>
+                        new features</p>
+                    <br>
+                    <h5>Launch your next feature with minimal risk.</h5>
+                    <p style="color: grey;">The best way to release a new feature is to first test it on a few users to
+                        see how it works and
+                        how they respond. When you're happy with it, roll it out to the rest of your user base. If you
+                        need to disable it for some reason, there's no need to roll out a whole new app and wait for
+                        users to update.</p>
+                    <h5>Start by defining a small percentage of users as testers.
+                    </h5>
+                    <p style="color: grey;">Use Google Analytics for Firebase and Remote Config to target a select group
+                        of users to test
+                        your new feature. Then, use Cloud Messaging to invite them to try it out. Track the results in
+                        Analytics. If all is well, roll it out to everyone else, or roll it back instantly from the
+                        Firebase console.</p>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>
+                                <iconify-icon icon="tabler:brand-google-analytics" style="color: gold;"></iconify-icon>
+                                Analytics
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <p>
+                                <iconify-icon icon="material-symbols:subdirectory-arrow-right"
+                                    style="color: rgb(234, 66, 15);"></iconify-icon> Remote Config
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="IMAGES/new-features_1x.png" class="imgg">
+                </div>
             </div>
         </div>
-    </div>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6">
+                <div style="margin-left: 5%;">
+                    <img src="IMAGES/onefootball.png">
+                    <br><br>
+                    <div class="d-flex" style="height: 90px;">
+                        <div class="vr"></div>
+                        <p>
+                            "Testing features first using Firebase helped us to increase user daily engagement by <br>
+                            5%." <br>
 
+                            - Maxime Blanc-Strauss, head of product, Onefootball
+                        </p>
+                    </div>
+                    <br>
+                    <p>
+                    <h5 style="color: rgb(40, 40, 243);">One Football case study</h5>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6"></div>
+        </div>
+        <br>
+        <hr style="text-align: center;">
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h5>Follow the user journey <br>
+                    across devices</h5>
+                <br>
+                <p>
+                <h5>It's no surprise that people use apps across devices.</h5>
+                </p>
+                <p style="color: grey;">A user may check your app on their mobile device, then open it from their
+                    laptop, and revisit it
+                    later on their tablet. Basic analytics may interpret this as three different users, inflating your
+                    churn rate.</p>
+                <br>
+                <p>
+                <h5>Get an in-depth understanding of your users across devices.</h5>
+                </p>
+                <p style="color: grey;">Google Analytics for Firebase lets you export your mobile app data (iOS and
+                    Android) to BigQuery and,
+                    by matching on UserID, gives you a complete picture of app engagement across channels and devices.
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>
+                            <iconify-icon icon="tabler:brand-google-analytics" style="color: red"></iconify-icon>
+                            Analytics
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>
+                            <img src="IMAGES/bigquery.svg.png" width="20"> BigQuery
+                        </p>
+                    </div>
+                    <br><br>
+
+                </div>
+                <br><br><br>
+                <img src="IMAGES/npr.png" >
+                <br>
+                <div class="d-flex" style="height: 90px;">
+                    <div class="vr"></div>
+                    <p style="color: gray;">
+                        "Firebase is an incredibly powerful tool to have so much functionality -Remote Config,
+                        Analytics, BigQuery, and more that help us with smarter targeting and insights, under it one
+                        umbrella." <br>
+
+                        - Tejas Mistry, product manager, NPR </p>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button class="but"
+                            style="width: 70%; border-color: blue; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
+                            <h5>View tutorial</h5>
+
+                        </button>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 style="color: rgb(86, 119, 225);">npr case study</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="IMAGES/user-journey_1x.png" class="imgg">
+            </div>
+        </div>
+        <br>
+        <hr style="text-align:center">
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>
+                <h5>Follow the user journey <br>
+                    across devices</h5>
+                </p>
+                <h5>It's no surprise that people use apps across devices.</h5>
+                <p style="color: grey;">A user may check your app on their mobile device, then open it from their
+                    laptop, and revisit it
+                    later on their tablet. Basic analytics may interpret this as three different users, inflating your
+                    churn rate.</p>
+                <br>
+                <h5>Get an in-depth understanding of your users across devices.</h5>
+                <p style="color: grey;">Seamlessly authenticate with Firebase Authentication, then set up a chat room in
+                    the Realtime
+                    Database. Messages appear on all your users' devices in realtime. Use Firebase Cloud Messaging to
+                    send notifications so that your users get new messages if they're in another app.</p>
+                <div class="row">
+
+                    <div class="col-lg-6"><iconify-icon icon="gg:database" style="color:gold;"></iconify-icon> Realtime
+                        database</div>
+                    <div class="col-lg-6"><iconify-icon icon="ic:outline-cloud-done" style="color: red;"></iconify-icon>
+                        Cloud Messaging</div>
+                    <div class="col-lg-6">
+                        <iconify-icon icon="fluent:person-alert-16-regular" style="color: red;"></iconify-icon>
+                        Authentication
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6"><img src="IMAGES/chat-features_1x.png" class="imgg"></div>
+
+        </div>
+        <br><br>
+        <hr style=" text-align:center">
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="h6">Optimize ads based on <br>
+                    user behavior</p>
+                <p class="h6" style="color:grey;">Different users require different monetization strategies.</p>
+                <p>Based on user demographics or behavior, create custom audience lists to segment users into
+                    low-potential and high-potential buyers. Link your Firebase project to AdMob to get a complete
+                    picture of how much each audience is worth to you.</p>
+                <br>
+                <p class="h6">Create the right ads experience for the right users.
+                </p>
+                <p style="color:grey;">By using Firebase Remote Config in combination with Analytics custom audience
+                    lists, you can define
+                    whether a user sees more or fewer ads inside your app. Link your Firebase project to AdMob to
+                    measure the impact of your tailored ads experience on audience lifetime value.</p>
+                <div class="row">
+
+                    <div class="col-lg-6"><iconify-icon icon="gg:database" style="color:gold;"></iconify-icon> Realtime
+                        database</div>
+                    <div class="col-lg-6"><iconify-icon icon="ic:outline-cloud-done" style="color: red;"></iconify-icon>
+                        Cloud Messaging</div>
+                    <div class="col-lg-6">
+                        <iconify-icon icon="fluent:person-alert-16-regular" style="color: red;"></iconify-icon>
+                        Authentication
+                    </div>
+                </div>
+                <br><br>
+                <img src="IMAGES/playbuzz.png">
+                <br><br>
+                <div class="d-flex" style="height: 90px;">
+                    <div class="vr"></div>
+                    <p style="color: gray;">
+                        "Firebase completely freed our engineers from managing campaign infrastructure, and helped our
+                        team to be more effective and our campaigns to perform better—which is a huge win for us."
+                        <br>
+                        - Eran Orlev, Head of Mobile Products, Playbuzz
+                </div>
+                <br>
+                <h5 style="color:blue">Playbuzz case study</h5>
+            </div>
+            <div class="col-lg-6">
+                <img src="IMAGES/ads_1x.png" class="imgg">
+            </div>
+
+        </div>
+        <br><br>
+        <hr style="text-align:center">
+        <hr>
+        <div class="row">
+            <h6>Enable users to share and resize photos</h6>
+            <div class="col-lg-4">
+                <h6>Increase app engagement with <br>
+                    peer-to-peer sharing.</h6>
+                <p style="color: grey;">Use Cloud Storage for Firebase to quickly, securely host users' photos in the
+                    cloud, then record
+                    their file paths in the Realtime Database to enable sharing.</p>
+
+            </div>
+            <div class="col-lg-4">
+                <h6>Ensure that only intended users can <br>
+                    view photos.</h6>
+                <p style="color: grey;">Firebase security rules work with the Realtime Database to ensure only the
+                    individuals that users
+                    share a photo with can view it.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h6>Automatically resize images once <br>
+                    they're uploaded.</h6>
+                <p style="color: grey;">Cloud Functions for Firebase lets you maintain the original detail of the
+                    creator's photo without
+                    forcing users to download the full image (which can eat up data). Cloud Functions runs on Google
+                    Cloud Platform, so there are no servers to manage.
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+
+                    <div class="col-lg-4"><iconify-icon icon="gg:database" style="color:gold;"></iconify-icon> Realtime
+                        database</div>
+                    <div class="col-lg-4"><iconify-icon icon="ic:outline-cloud-done" style="color: red;"></iconify-icon>
+                        Cloud Messaging</div>
+                    <div class="col-lg-4">
+                        <iconify-icon icon="fluent:person-alert-16-regular" style="color: red;"></iconify-icon>
+                        Authentication
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6"></div>
+            <br><br><br>
+            <hr style="text-align:center">
+            <br><br>
+            <div class="row">
+                <h6>Process third-party <br>
+                    payments without a server</h6>
+                <br>
+                <div class="col-lg-6">
+                    <p class="h6">When users make in-app purchases, they expect speed and security.</p>
+                    <p style="color:grey;">Many third-party services allow you to process payments, eliminating needless
+                        complexity.
+                        Firebase further streamlines the experience by letting you call these payment APIs securely,
+                        without setting up your own servers.</p>
+                    <br>
+                    <p class="h6">Help your customers complete payments in milliseconds.</p>
+                    <p style="color:grey;">When a user reaches the payment screen in your app, you collect their
+                        up-to-date payment
+                        information and pass it to Cloud Functions for Firebase. You can then process their payment by
+                        making requests to a third-party payment processing API over HTTPS, write the order to the
+                        Realtime Database, and return a confirmation message to the user once complete. All securely,
+                        without managing servers.</p>
+
+                    <br>
+                    <div class="row">
+
+                        <div class="col-lg-4"><iconify-icon icon="gg:database" style="color:gold;"></iconify-icon>
+                            Realtime
+                            database</div>
+                        <div class="col-lg-4"><iconify-icon icon="ic:outline-cloud-done"
+                                style="color: red;"></iconify-icon>
+                            Cloud Messaging</div>
+                    </div>
+                    <br>
+                    <button class="but"
+                        style="width: 50%; border-color: blue; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
+                        <h5>View tutorial</h5>
+
+                    </button>
+                    <br><br>
+                </div>
+                <div class="col-lg-6">
+                    <img src="IMAGES/payments_1x.png" class="imgg">
+                </div>
+
+            </div>
+            <br><br>
+            <hr>
+            <br>
+            <div class="row">
+                <h6>Reward your referrals</h6>
+                <br>
+                <div class="col-lg-6">
+                    <h6>Referrals are a highly effective way of driving growth.</h6>
+                    <p style="color:grey">Your users are going to value their friends' recommendations far more highly
+                        than any marketing that you do. Firebase Dynamic Links makes it easy for you to create a
+                        referral system in your app, opening up a large potential growth vector for your product.</p>
+                    <br>
+                </div>
+                <div class="col-lg-6">
+                    <h6>Reward users for referring friends.</h6>
+                    <p style="color: grey;">Using Realtime Database and Cloud Functions for Firebase, you can set up
+                        in-app rewards for successful referrals. Invitation links work across platforms and referrals
+                        receive a custom first-time experience that you design. You can also delay granting rewards to
+                        the referral, the referrer, or both until a specific introductory task is completed.</p>
+                </div>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <iconify-icon icon="gg:database" style="color:gold;"></iconify-icon> Realtime
+                    database
+                </div>
+                <div class="col-lg-2">
+                    <iconify-icon icon="ic:outline-cloud-done" style="color: red;"></iconify-icon>
+                    Cloud Messaging
+                </div>
+                <div class="col-lg-2">
+                    <iconify-icon icon="fluent:person-alert-16-regular" style="color: red;"></iconify-icon>
+                    Authentication
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <button class="but" id="bu"
+                        style="width: 70%; border-color: blue; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
+                        <h5>View tutorial</h5>
+
+                    </button>
+                </div>
+                <div class="col-lg-8"></div>
+
+            </div>
+            
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="container shadow rounded-3" style=" border: 40% solid white;border-radius: 0.5%;  padding: 2%; background-color: white;">
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <h6>Part of the Firebase platform </h6>
+                <p style="color:grey">Firebase helps you develop high-quality apps, grow your user base, and earn
+                    more money. Each feature works independently, and they work even better together.</p>
+                <br>
+                <button class="but"
+                    style="width: 40%; border-color: blue; border-radius: 10px;padding-top: 3%;padding-bottom: 3%; background-color: blue;color: white">
+                    <h5>See products</h5>
+
+                </button>
+            </div>
+            <div class="col-lg-6">
+                <img src="IMAGES/products-logo-marquee_1x.png" class="imgg">
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <br><br><br><br>
+    <div class="container" style="text-align: center;">
+        <img src="IMAGES/Screenshot 2023-03-14 113820.png" >
+        <br>
+        <h1 style="color: darkslateblue;">Try Firebase today</h1>
+        <br>
+        <h5  style="color: darkslateblue;">Integrating it into your app is easy.</h5>
+        <br>
+        <button 
+                    style="width: 20%; border-color: blue; border-radius: 10px;padding-top: 1%;padding-bottom: 1%; background-color: blue;color: white">
+                    <h5>Get started</h5>
+
+                </button>
+    </div>
+    <br><br><br><br><br>
+    <div class="container-fluid">
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-lg-4">
+                <p>
+                    Learn <br>
+                    Guides <br>
+                    Reference <br>
+                    Samples <br>
+                    Libraries <br>
+                    GitHub
+                </p>
+            </div>
+            <div class="col-lg-4">
+                Stay connected <br>
+                Stay  <br>
+                Blog <br>
+                Firebase Summit <br>
+                Twitter <br>
+                YouTube
+            </div>
+            <div class="col-lg-4">
+                Support <br>
+                Contact support <br>
+                Stack Overflow <br>
+                Slack community <br>
+                Google group <br>
+                Release notes <br>
+                FAQs
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-lg-2">
+                <img src="IMAGES/Screenshot 2023-03-14 115906.png" >
+            </div>
+            <div class="col-lg-1">Android</div>
+            <div class="col-lg-1">Chrome</div>
+            <div class="col-lg-1">Firebase</div>
+            <div class="col-lg-2">Google cloud platform</div>
+            <div class="col-lg-1">All products</div>
+            <div class="col-lg-4"></div>
+            <br><br>
+            <hr>
+        </div>
+        <br>
+        <p>Terms <span>|</span> <span>Privacy</span></p>
+    </div>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
 </body>
 
